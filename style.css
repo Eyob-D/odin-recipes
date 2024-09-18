@@ -1,0 +1,26 @@
+body {
+    border-color: white;
+    border-radius: 3cap;
+    border-style:outset;
+    padding: 10%;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(10,10,10);
+    background: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(146,46,228,1) 0%, rgba(255,247,0,1) 100%);
+}
+
+.homepage.title{
+    color: white;
+    font-weight:bold;
+    font-family:Geneva, Tahoma, sans-serif
+
+}
+.homepage.links{
+    color: rgb(254, 254, 254);
+}
+a {
+    color:antiquewhite;
+}
+image {
+    
+}
