@@ -1,26 +1,61 @@
+
 body {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-color: white;
     border-radius: 3cap;
     border-style:outset;
-    padding: 10%;
+    padding: 5%;
     align-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(10,10,10);
     background: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(146,46,228,1) 0%, rgba(255,247,0,1) 100%);
 }
 
-.homepage.title{
+.homepage.title {
+    
     color: white;
     font-weight:bold;
-    font-family:Geneva, Tahoma, sans-serif
+    font-family:Geneva, Tahoma, sans-serif;
+    border-left-color: white;
+    padding-left: 10px;
+    width:300px;
+    border-left-style:solid;
+    margin-top: 0px;
+    border-left-width: 10px;
 
 }
 .homepage.links{
     color: rgb(254, 254, 254);
+    padding-top: 20px;
+    padding-left: 50px;
 }
-a {
+a,li,ol,ul, p {
     color:antiquewhite;
+    padding-top:5px;
+    width: 70%;
 }
-image {
+h3{
     
+    color: white;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    border-left-color: white;
+    padding-left: 10px;
+    width:300px;
+    border-left-style:solid;
+    margin-top: 10px;
+    border-left-width: 5px; 
+}
+.page.title{
+    color: white;
+    font-weight:bold;
+    font-family:Geneva, Tahoma, sans-serif;
+    border-left-color: white;
+    padding-left: 10px;
+    width:600px;
+    border-left-style:solid;
+    margin-top: 10px;
+    border-left-width: 5px; 
 }
