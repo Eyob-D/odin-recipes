@@ -8,16 +8,13 @@
     box-sizing: inherit;
   } */
 body {
-    margin-top: 20px;
-    margin-right: 200px;
-    margin-left: 200px;
+    width: 1000px;
+    margin: 15px auto;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    border-right: 0px;
-    border-bottom: 0px;
     border-color: white;
-    border-radius: 15cap;
+    /* border-radius: 15cap; */
     border-style:double;
     padding: 5%;
     align-content: center;
@@ -33,8 +30,8 @@ body {
     font-family:Geneva, Tahoma, sans-serif;
     border-left-color: #fbff03;
     padding-left: 10px;
-    width:600px;
     border-left-style:solid;
+    border-bottom: 0px;
     margin-top: 0px;
     border-left-width: 10px;
     margin-left: auto;
@@ -51,13 +48,18 @@ body {
     text-align: center;
     margin-top: 40px;
 }
-li,ol,ul, p {
+li, p {
     color:rgb(255, 255, 255);
     padding:5px;
-    padding-top: 15px;
-    width: 70%;
+    padding-top: 10px;
     margin: 0 auto;
-    
+}
+ol,ul {
+        color:rgb(255, 255, 255);
+        padding-right:90px;
+        padding-top: 15px;
+        margin: 5px 5px;
+       
 }
 a {
     
@@ -67,12 +69,14 @@ a {
     background-color:  rgb(242, 143, 62);
     font-weight: bold;
     text-align: center;
+    border-radius: 5px;
 }
 a:hover {
     background-color: rgb(171, 6, 248);
+    border-radius: 5px;
   }
-h3{
-    margin-left: 200px;
+h3, h2{
+    
     margin: 0 auto;
     font-size: 30px;
     padding: 10px;
@@ -81,7 +85,7 @@ h3{
     border-left-color: #fbff03;
     padding-left: 10px;
     padding-top: 10px;
-    width:300px;
+    /* width:300px; */
     border-left-style:solid;
     margin-top: 10px;
     border-left-width: 5px;
@@ -89,7 +93,7 @@ h3{
 .page-title{
     margin: 0 auto;
     color: white;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-right: auto;
     font-family:Geneva, Tahoma, sans-serif;
     border-left-color:#fbff03;
@@ -103,21 +107,6 @@ h3{
     padding-bottom: 30px;
     padding-top: 30px;
     display: block;
-    margin-left: 200px;
     padding:50px;
  
-}
-h2 {
-    margin-left: 200px;
-    margin-right: auto;
-    font-size: 30px;
-    padding: 10px;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-left-color: #fbff03;
-    padding-left: 10px;
-    width:300px;
-    border-left-style:solid;
-    margin-top: 10px;
-    border-left-width: 5px;
 }
