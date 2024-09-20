@@ -27,7 +27,7 @@ body {
 }
 
 .homepage.title {
-    
+    font-size: 50px;
     color: white;
     font-weight:bold;
     font-family:Geneva, Tahoma, sans-serif;
@@ -37,57 +37,87 @@ body {
     border-left-style:solid;
     margin-top: 0px;
     border-left-width: 10px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 .homepage.links{
+    margin: 0 auto;
     color: rgb(254, 254, 254);
     padding-top: 20px;
     padding-left: 50px;
-    width: 70%;
+    width: 60%;
     margin-left: 10px;
     display:flex;
+    text-align: center;
+    margin-top: 40px;
 }
 li,ol,ul, p {
-    color:antiquewhite;
-    padding-top:5px;
+    color:rgb(255, 255, 255);
+    padding:5px;
+    padding-top: 15px;
     width: 70%;
+    margin: 0 auto;
+    
 }
 a {
+    
     color:antiquewhite;
     padding:10px;
     width: 70%;
-    background-color:  rgb(125, 5, 205);
+    background-color:  rgb(242, 143, 62);
     font-weight: bold;
+    text-align: center;
 }
+a:hover {
+    background-color: rgb(171, 6, 248);
+  }
 h3{
-    
+    margin-left: 200px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px;
     color: white;
-    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left-color: #fbff03;
+    padding-left: 10px;
+    padding-top: 10px;
+    width:300px;
+    border-left-style:solid;
+    margin-top: 10px;
+    border-left-width: 5px;
+}
+.page-title{
+    margin: 0 auto;
+    color: white;
+    margin-left: 200px;
+    margin-right: auto;
+    font-family:Geneva, Tahoma, sans-serif;
+    border-left-color:#fbff03;
+    padding-left:10px;
+    border-left-style:solid;
+    margin-top: 10px;
+    border-left-width: 5px; 
+    font-size: 50px;
+}
+.img {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: block;
+    margin-left: 200px;
+    padding:50px;
+ 
+}
+h2 {
+    margin-left: 200px;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-left-color: #fbff03;
     padding-left: 10px;
     width:300px;
     border-left-style:solid;
     margin-top: 10px;
-    border-left-width: 5px; 
-}
-.page.title{
-    
-    color: white;
-   
-    font-family:Geneva, Tahoma, sans-serif;
-    border-left-color:#fbff03;
-    padding-left: 10px;
-    width:auto;
-    border-left-style:solid;
-    margin-top: 10px;
-    border-left-width: 5px; 
-    align-content: center;
-    font-size: xx-large;
-}
-.img {
- 
-   border:#fbff03 1px inset;
-   
- 
+    border-left-width: 5px;
 }
