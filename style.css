@@ -47,6 +47,7 @@ body {
     display:flex;
     text-align: center;
     margin-top: 40px;
+    list-style-type: none;
 }
 li, p {
     color:rgb(255, 255, 255);
@@ -54,12 +55,18 @@ li, p {
     padding-top: 10px;
     margin: 0 auto;
 }
-ol,ul {
+ul {
         color:rgb(255, 255, 255);
         padding-right:90px;
         padding-top: 15px;
+        margin: 5px 5px;      
+        list-style-type: square;
+}
+ol {
+    color:rgb(255, 255, 255);
+        padding-right:90px;
+        padding-top: 15px;
         margin: 5px 5px;
-        list-style-type: none;
        
 }
 a {
@@ -72,6 +79,7 @@ a {
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
+    list-style-type: none;
 }
 a:hover {
     background-color: rgb(171, 6, 248);
